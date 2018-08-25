@@ -36,7 +36,7 @@ Meteor.startup(function(){
       user.profile = options.profile;
 
       if (config.defaultMentor){
-        user.profile.mentor = true;
+       // user.profile.mentor = true;
       }
     }
 
