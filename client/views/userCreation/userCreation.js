@@ -95,7 +95,8 @@ function formatCsv(csv, t){
       username: username,
       password: password,
       profile: {
-        name: name
+        name: name,
+        mentor:false
       }
     }
   })
